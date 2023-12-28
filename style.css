@@ -1,0 +1,90 @@
+
+
+body{
+    background-image: url("images/ram.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 900%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.hero{
+    
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+       
+}
+.time{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+.timer{
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.6rem;
+    color: aquamarine;
+    font-weight: bolder;
+}
+.timer:hover{
+    color: rgb(40, 224, 163);
+    cursor: pointer;
+}
+.content{
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+h2{
+    font-family: sans-serif;
+    color: silver;
+}
+h2:hover{
+    color:rgb(170, 169, 169);
+    cursor: pointer;
+    
+}
+.head:hover{
+   
+   
+    cursor: pointer;
+    color: rgb(187, 135, 4);
+}
